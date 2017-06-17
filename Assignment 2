@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>
+        T05902129 Loh Shiah Leei
+    </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+
+<body>
+
+    <!-- PRE LOADER -->
+    <div class="preloader">
+        <div class="spinner">
+            <span class="spinner-rotate"></span>
+        </div>
+    </div>
+
+
+    <!-- HOME SECTION -->
+    <section id="home" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-offset-5 col-md-7 col-sm-12">
+                    <div class="home-thumb">
+                        <h1 class="wow fadeInUp" data-wow-delay="0.4s">Hello, I am Loh Shiah Leei.</h1>
+                        <p class="wow fadeInUp white-color" data-wow-delay="0.6s">A little about myself: I am an exchange student from Singapore, studying Information systems (Computing) in National University of Singapore (NUS). </p>
+                        <a href="#service" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s">discover more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICE SECTION -->
+    <section id="service" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                    <!-- SECTION TITLE -->
+                    <h2>
+                        Somethings that I like to do
+                    </h2>
+                    <p>My hobbies, things that I generally do in my free time</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                        <i class="fa fa-plane"></i>
+                        <h4>Travelling</h4>
+                        <p>Who doesn't like travelling right? I generally travel to nearby Asia countries a few times yearly.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="http://www.thepicta.com/user/yumyumtothetumtum/441735855/1413303193324060284_441735855">
+                            <i class="fa fa-camera"></i>
+                        </a>
+                        <h4>Photography</h4>
+                        <p>Since I do travel quite a lot, I love to take photos of the places that I go do. Keep sake of my travel experiences and noting interesting stuffs that I experienced while travelling.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="http://sethlui.com/best-local-famous-foods-to-eat-singapore/">
+                            <i class="fa fa-cutlery"></i>
+                        </a>
+                        <h4>Food</h4>
+                        <p>Food has always been a passion for me. During my free time, I love to explore my home country (Singapore) or travel to Malaysia to find good food.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="http://www.kin-ball.com/en/">
+                            <i class="fa fa-bicycle"></i>
+                        </a>
+                        <h4>Sports</h4>
+                        <p>I love playing sports such as basketball, badminton and so on to keep myself fit and also to spend quality time with my friends.</p>
+                        <p>Currently I am more focused in a sport called Kinball~</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-8">
+                    <div class="about-image-thumb">
+                        <img src="images/image 1.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image">
+                        <ul class="social-icon">
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/loh.shiahleei">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/yumyumtothetumtum/">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-sm-12">
+                    <div class="about-thumb">
+                        <!-- SECTION TITLE -->
+                        <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                            <h2>A little more about myself.</h2>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-delay="0.8s">
+                            <p>Captain of Basketball team in Secondary School and Junior College.</p>
+                            <p>Currently member of Singapore National Team for Kinball.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                    <!-- SECTION TITLE -->
+                    <h2>
+                        Some facts about my country
+                    </h2>
+                    <p>Click below to know about Singapore</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Singapore">
+                            <i class="fa fa-globe"></i>
+                        </a>
+                        <h4>History of Singapore</h4>
+                        <p>A small and open economy with a relatively short history.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="http://www.molon.de/galleries/Singapore/">
+                            <i class="fa fa-camera"></i>
+                        </a>
+                        <h4>Singapore scenery</h4>
+                        <p>Singapore houses many different kinds of flora and fauna. Also not forgetting the unqiue architecture of Singapore past and artistic present.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="http://sethlui.com/best-local-famous-foods-to-eat-singapore/">
+                            <i class="fa fa-cutlery"></i>
+                        </a>
+                        <h4>Food</h4>
+                        <p>Singapore is a food paradise with different flavours due to its multiracial culture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section id="service" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                    <!-- SECTION TITLE -->
+                    <h2>
+                        Things to take note if one wants to visit Singapore
+                    </h2>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="http://www.x-rates.com/table/?from=SGD&amount=1">
+                            <i class="fa fa-money"></i>
+                        </a>
+                        <h4>Exchange rate</h4>
+                        <p>Check your country exchange rate on this up-to-date table.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="https://www.transitlink.com.sg/eservice/eguide/service_idx.php">
+                            <i class="fa fa-bus"></i>
+                        </a>
+                        <h4>Bus routes</h4>
+                        <p>Click to find out about the bus routes</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="https://www.lta.gov.sg/content/ltaweb/en/public-transport/mrt-and-lrt-trains/train-system-map.html">
+                            <i class="fa fa-train"></i>
+                        </a>
+                        <h4>Train map</h4>
+                        <p>Find out more about Singapore train stations</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-thumb">
+                        <a target="_blank" href="https://www.sbstransit.com.sg/journeyplan/step1.aspx">
+                            <i class="fa fa-map-marker"></i>
+                        </a>
+                        <h4>Route planner</h4>
+                        <p>The best way for one to find one's way to places with planned routes, such as what buses to take and what stations to stop at.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
