@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/welove.css">
+
+</head>
+
+
+<body>
+
+    <table style="width:100%">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <!-- <img id="myImage2" onclick="changeImage3()" src="https://www.w3schools.com/js/pic_bulboff.gif"
+                    width="100" height="180"> -->
+        <tr>
+            <td><img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
+            </td>
+            <td><img id="myImage1" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
+            </td>
+            <td><img id="myImage2" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
+            </td>
+            <td><img id="myImage3" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
+            </td>
+        </tr>
+    </table>
+
+    <table style="width:100%">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="checkbox" id="myCheck1" onclick="changeImage()">
+            </td>
+            <td>
+                <input type="checkbox" id="myCheck2" onclick="changeImage()">
+            </td>
+            <td>
+                <input type="checkbox" id="myCheck3" onclick="changeImage()">
+            </td>
+        </tr>
+    </table>
+
+
+
+
+</body>
+
+<script>
+
+    //document.getElementById("demo").innerHTML="Hello World!";
+    function changeImage() {
+        var checkBox1 = document.getElementById("myCheck1");
+        var checkBox2 = document.getElementById("myCheck2");
+        var checkBox3 = document.getElementById("myCheck3");
+
+        //000
+        if (checkBox1.checked == false && checkBox2.checked == false && checkBox3.checked == false) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage2');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        }
+
+        //100
+        if (checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage2');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+
+        //010
+        if (checkBox1.checked == false && checkBox2.checked == true && checkBox3.checked == false) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage2');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+
+        //001
+        if (checkBox1.checked == false && checkBox2.checked == false && checkBox3.checked == true) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage2');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        }
+
+        //110
+        if (checkBox1.checked == true && checkBox2.checked == true && checkBox3.checked == false) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage2');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+
+        //011 
+        if (checkBox1.checked == false && checkBox2.checked == true && checkBox3.checked == true) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "images/bluelightbulb.png";
+            var image = document.getElementById('myImage2');
+            image.src = "images/bluelightbulb.png";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+
+        //101 
+        if (checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == true) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "images/bluelightbulb.png";
+            var image = document.getElementById('myImage2');
+            image.src = "images/bluelightbulb.png";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+
+        //111 
+        if (checkBox1.checked == true && checkBox2.checked == true && checkBox3.checked == true) {
+            var image = document.getElementById('myImage');
+            image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+            var image = document.getElementById('myImage1');
+            image.src = "images/bluelightbulb.png";
+            var image = document.getElementById('myImage2');
+            image.src = "images/bluelightbulb.png";
+            var image = document.getElementById('myImage3');
+            image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+
+
+
+    }
+
+
+
+
+</script>
