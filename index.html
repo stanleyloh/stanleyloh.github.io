@@ -82,7 +82,7 @@
 
 <body>
 
-    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
 
     <table style="width:100%">
         <tr>
@@ -104,7 +104,16 @@
             <td><img id="myImage3" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
             </td>
         </tr>
+
+        <tr>
+            <td>Bulb 1</td>
+            <td>Bulb 2</td>
+            <td>Bulb 3</td>
+            <td>Bulb 4</td>
+        </tr>
     </table>
+
+    <br><br><br>
 
     <table style="width:100%">
         <tr>
@@ -132,9 +141,11 @@
                     <span class="slider round"></span>
                 </label>
             </td>
-
-
-
+        </tr>
+        <tr>
+            <td>Switch 1</td>
+            <td>Switch 2</td>
+            <td>Switch 3</td>
         </tr>
     </table>
 
@@ -249,7 +260,7 @@
 
 
         //000
-        if (checkBox1.checked == false && checkBox2.checked == false && checkBox3.checked == false && value >0) {
+        if (checkBox1.checked == false && checkBox2.checked == false && checkBox3.checked == false && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
             var image = document.getElementById('myImage1');
@@ -261,7 +272,7 @@
         }
 
         //100
-        if (checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false && value >0) {
+        if (checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
             var image = document.getElementById('myImage1');
@@ -279,7 +290,7 @@
         }
 
         //010
-        if (checkBox1.checked == false && checkBox2.checked == true && checkBox3.checked == false && value >0) {
+        if (checkBox1.checked == false && checkBox2.checked == true && checkBox3.checked == false && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
             var image = document.getElementById('myImage1');
@@ -297,7 +308,7 @@
         }
 
         //001
-        if (checkBox1.checked == false && checkBox2.checked == false && checkBox3.checked == true && value >0) {
+        if (checkBox1.checked == false && checkBox2.checked == false && checkBox3.checked == true && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
             var image = document.getElementById('myImage1');
@@ -315,7 +326,7 @@
         }
 
         //110
-        if (checkBox1.checked == true && checkBox2.checked == true && checkBox3.checked == false && value >0) {
+        if (checkBox1.checked == true && checkBox2.checked == true && checkBox3.checked == false && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
             var image = document.getElementById('myImage1');
@@ -333,7 +344,7 @@
         }
 
         //011 
-        if (checkBox1.checked == false && checkBox2.checked == true && checkBox3.checked == true && value >0) {
+        if (checkBox1.checked == false && checkBox2.checked == true && checkBox3.checked == true && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
             var image = document.getElementById('myImage1');
@@ -351,7 +362,7 @@
         }
 
         //101 
-        if (checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == true && value >0) {
+        if (checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == true && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
             var image = document.getElementById('myImage1');
@@ -369,7 +380,7 @@
         }
 
         //111 
-        if (checkBox1.checked == true && checkBox2.checked == true && checkBox3.checked == true && value >0) {
+        if (checkBox1.checked == true && checkBox2.checked == true && checkBox3.checked == true && value > 0) {
             var image = document.getElementById('myImage');
             image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
             var image = document.getElementById('myImage1');
@@ -385,7 +396,7 @@
             document.getElementById('number').value = value;
 
         }
-        
+
 
 
 
